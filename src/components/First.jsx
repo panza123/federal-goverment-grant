@@ -2,6 +2,7 @@ import React from "react";
 import image from "../assets/images/build.jpeg";
 import { LuBriefcaseBusiness } from "react-icons/lu";
 import { FaUser, FaHandshake, FaBuilding, FaUniversity } from "react-icons/fa";
+import logo from "../assets/images/logo.jpeg";
 
 const First = () => {
   return (
@@ -13,12 +14,23 @@ const First = () => {
       {/* Background Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
 
+      {/* Header (Positioned Left) */}
+      <div className="absolute top-4 left-4 flex items-center gap-4 text-white">
+        <img
+          src={logo}
+          alt="Federal Government Logo"
+          className="w-12 sm:w-16 md:w-20 rounded-full"
+        />
+        <h1 className="font-bold text-xl sm:text-2xl md:text-3xl">
+          Federal Government Grant
+        </h1>
+      </div>
+
       {/* Content Box */}
-      <div className="relative z-10 max-w-3xl px-4 text-white">
+      <div className="relative z-10 max-w-3xl px-4 text-white mt-10">
         <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4">
           Applications are NOW Available!
         </h2>
-
         <p className="text-sm sm:text-lg md:text-xl text-gray-200 leading-relaxed">
           Each year, billions of dollars are awarded to individuals and
           businesses in the form of grants and other types of funding.
