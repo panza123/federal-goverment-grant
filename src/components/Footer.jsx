@@ -23,7 +23,7 @@ const Footer = () => {
 
         {/* Social Icons */}
         <div className="flex justify-center gap-6 mt-4 mb-6">
-          <a href="https://www.facebook.com/share/18wrZFCScc/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl hover:text-blue-500 transition-all">
+          <a href="https://www.facebook.com/claimingagentgarypeters?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl hover:text-blue-500 transition-all">
             <FaFacebook />
           </a>
           <a href="https://wa.me/2026426366" target="_blank" rel="noopener noreferrer" className="text-2xl sm:text-3xl hover:text-green-500 transition-all">
